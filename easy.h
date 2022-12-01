@@ -6,6 +6,8 @@
 using namespace std;
 string itc_hello_str(string name);
 
+string  itc_len(string str);
+
 
 
 
