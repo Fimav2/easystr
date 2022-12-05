@@ -30,13 +30,29 @@ void itc_print_copy_str(string str, int number) //Number 3
 //Написать функцию void itc_first_end_three(string str), которая выводит первые три символа и
 //последний три символа, если длина строки больше 5. Иначе вывести первый символ столько раз, какова длина строки.
 void itc_first_end_three(string str){
-    string 
-    long long a,i;
-    if(a>5){
-        for (i = 0;[])
+    if (itc_len(str) > 5){
+        cout << str[0]
+         << str[1]
+         <<str[2]
+         << str[itc_len(str)-3]
+         << str[itc_len(str)-2]
+         << str[itc_len(str)-1];   //последний символ строки
     }
-else{
-
+    else{
+        for(int i=0; i<itc_len(str); i++){
+            cout<< str[0];
+        }
+    }
 }
-}
+int itc_count_char_in_str(char ch, string str){///git
+    int number = 0;
+    for(int i=0; i<itc_len(str); i++){
+            if (ch == str[i]){
+                number = number + 1;
+            }
+        }
 
+
+
+    return number;
+}
