@@ -21,9 +21,17 @@ long long itc_len(string str){
 // void itc_print_copy_str(string str, int number), которая принимает на вход строку и целое число и
 //выводит на экран строку столько раз, чему равен второй аргумент функции.
 
-void itc_print_copy_str(string str, int number){
-
-cout<< str[number];
-
+void itc_print_copy_str(string str, int number) //Number 3
+{
+    for (int i = 0; i < number; i++)
+        cout << str << " ";
 }
+//Написать функцию void itc_first_end_three(string str), которая выводит первые три символа и
+//последний три символа, если длина строки больше 5. Иначе вывести первый символ столько раз, какова длина строки.
+void itc_first_end_three(string n){
+
+
+return 0;
+}
+
 
