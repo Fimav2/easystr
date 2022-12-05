@@ -56,3 +56,17 @@ int itc_count_char_in_str(char ch, string str){///git
 
     return number;
 }
+string itc_even_place(string str){
+        string g;
+        for(int i%2;i<itc_len(str);i++){;
+      if (str['\0']){
+          return g;
+      }
+        }
+      else{
+      cout<< -1;
+      }
+
+
+}
+
