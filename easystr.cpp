@@ -1,3 +1,4 @@
+
 #include <string>
 #include "easystr.h"
 
@@ -28,10 +29,14 @@ void itc_print_copy_str(string str, int number) //Number 3
 }
 //Написать функцию void itc_first_end_three(string str), которая выводит первые три символа и
 //последний три символа, если длина строки больше 5. Иначе вывести первый символ столько раз, какова длина строки.
-void itc_first_end_three(string n){
+void itc_first_end_three(string str){
+    string 
+    long long a,i;
+    if(a>5){
+        for (i = 0;[])
+    }
+else{
 
-
-return 0;
 }
-
+}
 
