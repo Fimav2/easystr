@@ -1,4 +1,4 @@
-
+#include "easystd.h"
 string itc_even_place(string str){
         string g;
         for(int i%2;i<itc_len(str);i++){;
