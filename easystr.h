@@ -15,4 +15,10 @@ void itc_first_end_three(string str);
 
 int itc_count_char_in_str(char ch, string str);
 
+string itc_even_place(string str);
+
+double itc_percent_lower_uppercase(string str);
+  
+string itc_reverse_str(string str);
+
 #endif // EASYSTR_H_INCLUDED
