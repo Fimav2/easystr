@@ -1,6 +1,6 @@
 
 #include <string>
-#include "easystr.h"
+#include "streasy.h"
 
 using namespace std;
 
