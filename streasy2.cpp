@@ -1,5 +1,5 @@
 #include <string>
-#include "easystr.h"
+#include "streasy.h"
 
 using namespace std;
 string itc_even_place(string str){
