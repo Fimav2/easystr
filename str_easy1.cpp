@@ -5,7 +5,7 @@
 using namespace std;
 
 string itc_hello_str(string name ){
-return ("Hello,"+ name);
+return ("Hello, "+ name);
 
 }
 //Написать функцию long long itc_len(string str), которая принимает на вход строку и возвращает на экран целое число количество символов в строке
