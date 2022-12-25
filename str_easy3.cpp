@@ -37,3 +37,32 @@ string itc_cmp_str(string str1, string str2, int num){
 
     return g;
 }
+
+int itc_find_str(string str1, string str2){
+
+    string g;
+    int j = 0;
+    int h = 0;
+    for (int i = 0; str1[i] != '\0'; i++)
+    {
+        if (str1[i] == str2[j])
+        {
+            g = g + str1[i];
+
+            h += 1;
+
+            j++;
+        }
+
+        else
+        {
+            g = "\0";
+
+            j = 0;
+        }
+        if (g == str2)
+            return i - (h - 1);
+    }
+
+    return -1;
+}
