@@ -47,7 +47,44 @@ percent =  num_zag / num_stroch * 100;
 
 return percent;
 }
+string itc_slice_str(string str,int tank, int nazad)
+{
+    string new_str;
 
+    int i;
+
+    if (tank < nazad)
+    {
+         while (i != tank)
+        i = i + 1;
+
+    for (i; i <= nazad; i++)
+
+         new_str = new_str + str[i];
+
+    }
+    else
+
+        new_str = "0";
+
+    return new_str;
+}
+ bool itc_equal_reverse(string str){
+
+     string g;
+
+     g = itc_reverse_str(str);
+
+     if (g == str){
+
+            return 1;
+     }
+
+        else {
+                return 0;
+        }
+
+ }
 
 
 
