@@ -57,13 +57,12 @@ for (int i = itc_len(str) -1; i>=0; i--){
 return new_str;
 
 }
-
 string itc_slice_str(string str,int tank, int nazad){
 
     string new_str;
 
     int i;
-    new_str = "\0";
+    new_str = "";
     if (tank < nazad)
     {
          while (i < tank)
@@ -76,10 +75,12 @@ string itc_slice_str(string str,int tank, int nazad){
     }
     else
 
-    return str;    
+        return str;
 
     return new_str;
 }
+
+
 bool itc_equal_reverse(string str){
 
      string g;
