@@ -63,20 +63,20 @@ string itc_slice_str(string str,int tank, int nazad){
     string new_str;
 
     int i;
-
+    new_str = "\0";
     if (tank < nazad)
     {
-         while (i != tank)
+         while (i < tank)
         i = i + 1;
 
-    for (i; i <= nazad; i++)
+    for (i; i <= tank && str[i] != '\0'; i++)
 
          new_str = new_str + str[i];
 
     }
     else
 
-        new_str = "0";
+    return str;    
 
     return new_str;
 }
