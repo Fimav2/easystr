@@ -66,3 +66,27 @@ int itc_find_str(string str1, string str2){
 
     return -1;
 }
+string itc_three_str(string str1, string str2, string str3) {
+
+  long long santa;
+
+  while (itc_find_str(str1, str2) != -1) {
+
+    string apex, bob;
+
+    santa = itc_find_str(str1, str2);
+
+    for (long long i = 0; i < santa; i++)
+
+    apex += str1[i];
+
+    for (long long i = santa + itc_len(str2); str1[i] != '\0'; i++)
+
+      bob = bob + str1[i];
+
+    str1 = apex + str3 + bob;
+  }
+
+  return str1;
+
+}
